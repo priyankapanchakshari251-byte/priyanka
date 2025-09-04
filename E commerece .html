@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple E-commerce Page</title>
+</head>
+<body>
+
+  <h1>My E-Commerce Store</h1>
+
+  <!-- === Navigation === -->
+  <nav>
+    <a href="#dashboard">Dashboard</a> |
+    <a href="#product">Product Detail</a> |
+    <a href="#checkout">Checkout</a>
+  </nav>
+
+  <hr>
+
+  <!-- === Dashboard Section === -->
+  <section id="dashboard">
+    <h2>Dashboard (Products)</h2>
+
+    <h3>Product: Awesome Headphones</h3>
+    <p>Price: $99</p>
+    <p><a href="#product">View Details</a></p>
+    <p><a href="#checkout">Go to Checkout</a></p>
+  </section>
+
+  <hr>
+
+  <!-- === Product Detail Section === -->
+  <section id="product">
+    <h2>Product Detail</h2>
+    <p><strong>Name:</strong> Awesome Headphones</p>
+    <p><strong>Description:</strong> High-quality wireless headphones with noise cancellation.</p>
+    <p><strong>Price:</strong> $99</p>
+    <p><a href="#dashboard">Back to Dashboard</a></p>
+    <p><a href="#checkout">Buy Now</a></p>
+  </section>
+
+  <hr>
+
+  <!-- === Checkout Section === -->
+  <section id="checkout">
+    <h2>Checkout Page</h2>
+    <p><strong>Product:</strong> Awesome Headphones</p>
+    <p><strong>Price:</strong> $99</p>
+
+    <h3>Billing Information</h3>
+    <form>
+      <label>Name: <input type="text" name="name"></label><br><br>
+      <label>Email: <input type="email" name="email"></label><br><br>
+      <label>Address: <input type="text" name="address"></label><br><br>
+      <input type="submit" value="Place Order">
+    </form>
+
+    <p><a href="#dashboard">Back to Dashboard</a></p>
+  </section>
+
+  <hr>
+
+  <footer>
+    <p>© 2025 My E-Commerce Store</p>
+  </footer>
+
+</body>
+</html>
